@@ -5,5 +5,5 @@ on: [push]
 jobs:
   First-Time:
   runs-ons: ubuntu-latest
-    steps:
+  steps:
       - run: echo "🎉 Hello World"
