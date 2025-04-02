@@ -1,0 +1,9 @@
+name: First Time with Git Hub Actions
+
+on: [push]
+
+jobs:
+  First-Time:
+  runs-ons: ubuntu-latest
+    steps:
+      - run: echo "🎉 Hello World"
